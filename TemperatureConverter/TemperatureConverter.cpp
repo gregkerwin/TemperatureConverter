@@ -16,7 +16,7 @@ int main()
     {
         cin.clear();  
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        cout << "Invalid input. You must enter 'F' or 'C'!" << endl;
+        cout << "You must enter 'F' or 'C'!" << endl;
         return 1; 
     }
 
